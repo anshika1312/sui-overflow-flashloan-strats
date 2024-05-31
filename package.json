@@ -1,0 +1,22 @@
+{
+    "name": "strats",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "ts-node src/index.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@mysten/sui.js": "^0.54.1",
+        "@scallop-io/sui-scallop-sdk": "^0.44.16",
+        "@suilend/sdk": "^1.0.8"
+    },
+    "devDependencies": {
+        "kriya-dex-sdk": "^1.1.69",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.4.5"
+    }
+}
